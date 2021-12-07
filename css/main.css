@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background: #202020; 
+     color: white;
+     margin-top: 300px;
+}
+
+.diver {
+    top: 20%;
+    padding-top: 5px;
+    padding-bottom:unset;
+    width:  110px;
+    height: 40px;
+    
+    background-color:rgb(76, 76, 90);
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(122, 118, 118);
+    border-radius: 30%;
+    position: absolute;
+    box-shadow: 5px,5px.5px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+    margin: auto; 
+    margin-top: 0px;
+    border-radius: 3%;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+
+
+
+  button {
+      width: 200px;
+    height: 200px;
+  }
+
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+
+.pressed {
+background-color: rgb(158, 190, 190);
+border-radius: 15%;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+}
+
+.time {
+    margin-left: 80px;
+}
+
+.number {
+    left:40%;
+}
+
+.difficult {
+right: 47%;
+}
+.difficult:hover {
+    cursor: pointer;
+}
+
+h1 {
+    position: absolute;
+    bottom: 85%;
+    left: 27%;
+    text-shadow: 2px 2px #6d3636;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
